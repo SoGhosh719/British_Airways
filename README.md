@@ -46,7 +46,35 @@ pie
 </div>
 
 ---
+# Review Content Insights
 
+---
+
+# Distribution of Review Lengths
+
+![Distribution of Review Lengths](output/review_length_distribution.png)
+
+> Most reviews are between **50–150 words** long, with a few reaching over **600+ words**.
+
+---
+
+# Word Frequency Analysis
+
+## Word Cloud
+
+![Word Cloud](output/review_wordcloud.png)
+
+> Most common words include: **flight**, **ba**, **trip**, **seat**, **service**, **delay**, **baggage**, and **crew**.
+
+---
+
+# Top 20 Most Frequent Words
+
+![Top Words Bar Chart](output/top20_words.png)
+
+> The most repeated words reflect flight-specific concerns and passenger experience.
+
+---
 # Monthly Sentiment Trends
 
 ```mermaid {scale: 0.9}

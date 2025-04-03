@@ -103,20 +103,20 @@ Showing gradual improvement in customer sentiment over time
 
 ## Primary Concerns
 - ⏰ **Flight Delays**
-  - **44.8%** of all complaints
-  - Average delay: ~2.5 hours (from review mentions)
+  - 35% of all complaints
+  - Average delay: 2.5 hours
   - Major impact on satisfaction
 
 - 🧳 **Baggage Handling**
-  - **26.4%** report issues
-  - Lost luggage recovery: estimated **72 hours avg**
+  - 30% report issues
+  - Lost luggage recovery: 72 hours avg
   
 - 👥 **Customer Service**
-  - **36.2%** complaints mention poor service
-  - Response time: **4.2+ hours**
-  - Resolution rate: ~**65%**
+  - Response time: 4+ hours
+  - Resolution rate: 65%
 
 </v-clicks>
+
 
 <div class="pl-4 pt-12">
 
@@ -124,20 +124,26 @@ Showing gradual improvement in customer sentiment over time
 %%{init: { 'theme': 'base' } }%%
 graph TD
     subgraph "Issue Distribution"
-    A["Flight Delays (44.8%)"]
-    B["Baggage Issues (26.4%)"]
-    C["Customer Service (36.2%)"]
-    D["Other Issues (10.0%)"]
+    A["Flight Delays (35%)"]
+    B["Baggage Issues (30%)"]
+    C["Customer Service (25%)"]
+    D["Other Issues (10%)"]
     end
     style A fill:#ff6b6b,stroke:#333
     style B fill:#4ecdc4,stroke:#333
     style C fill:#45b7d1,stroke:#333
     style D fill:#96ceb4,stroke:#333
+```
+
 </div>
-Customer Service Response Time
-mermaid
-Copy
-Edit
+
+---
+layout: default
+---
+
+# Customer Service Response Time
+
+```mermaid {scale: 0.8}
 journey
     title Customer Service Response Journey
     section Inquiry Received
@@ -149,39 +155,53 @@ journey
     section Resolution
         Provide Solution: 4: Support
         Customer Feedback: 3: Customer
-<div class="mt-4 text-sm opacity-70"> Most frequently mentioned timeframes: - **2 hours** (36 mentions) - **5 hours** (28) - **3 hours** (25)
-🕒 Average resolution time: ~4.2 hours
+```
 
+<div class="mt-4 text-sm opacity-70">
+Average resolution time: 4.2 hours
 </div>
-Positive Feedback Areas
-<div class="grid grid-cols-2 gap-4"> <div>
-Service Ratings
-mermaid
-Copy
-Edit
+
+---
+
+# Positive Feedback Areas
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+## Service Ratings
+
+```mermaid {scale: 0.7}
 pie
     title "Positive Feedback Distribution"
-    "Staff" : 53
-    "Comfort" : 46
-    "Food" : 45
-    "Entertainment" : 14
-</div> <div>
-Key Highlights
-👨‍✈️ Staff received the highest praise (53%)
+    "Entertainment" : 40
+    "Comfort" : 30
+    "Staff" : 20
+    "Food" : 10
+```
 
-💺 Comfortable seating appreciated by 46%
+</div>
+<div>
 
-🍽️ Food quality consistently positive
+## Key Highlights
+- 🎬 Modern entertainment system
+  - 1000+ hours of content
+  - 4.2/5 average rating
+- 💺 Ergonomic seating
+- 🍽️ Quality catering
+- 👨‍✈️ Professional crew
 
-🎬 Entertainment was less mentioned (14%)
+</div>
+</div>
+---
 
-</div> </div>
-Strategic Recommendations
-<div class="grid grid-cols-2 gap-4"> <div>
-Priority Matrix
-mermaid
-Copy
-Edit
+# Strategic Recommendations
+
+<div class="grid grid-cols-2 gap-4">
+<div>
+
+## Priority Matrix
+
+```mermaid {scale: 0.7}
 quadrantChart
     title Improvement Priority Matrix
     x-axis Low Impact --> High Impact
@@ -194,11 +214,14 @@ quadrantChart
     "Baggage System": [0.8, 0.9]
     "Communication": [0.4, 0.2]
     "Scheduling": [0.9, 0.6]
-</div> <div>
-Implementation Timeline
-mermaid
-Copy
-Edit
+```
+
+</div>
+<div>
+
+## Implementation Timeline
+
+```mermaid {scale: 0.7}
 gantt
     title Strategic Implementation Plan
     section Phase 1
@@ -207,32 +230,42 @@ gantt
     System Updates    :2024-03, 3m
     section Phase 3
     Process Rollout   :2024-06, 2m
-</div> </div>
-Regional Performance Analysis
-mermaid
-Copy
-Edit
+```
+
+</div>
+</div>
+---
+
+# Regional Performance Analysis
+
+```mermaid {scale: 0.8}
 pie
     title "Customer Satisfaction by Region"
-    "Europe" : 87
-    "Other" : 13
-<div class="mt-4 grid grid-cols-2 gap-4"> <div>
-Top Performing Routes
-London → New York
+    "Europe" : 45
+    "Americas" : 25
+    "Asia Pacific" : 20
+    "Middle East" : 10
+```
 
-London → Singapore
+<div class="mt-4 grid grid-cols-2 gap-4">
+<div>
 
-London → Dubai
+## Top Performing Routes
+1. London - New York
+2. London - Singapore
+3. London - Dubai
 
-</div> <div>
-Areas for Improvement
-Regional connectivity
+</div>
+<div>
 
-Holiday destinations
+## Areas for Improvement
+1. Regional connections
+2. Holiday destinations
+3. Business routes
 
-Consistency in Business Class experience
+</div>
+</div>
 
-</div> </div>
 # Thank You
 
 [GitHub Repository](https://github.com/SoGhosh719/British_Airways)

@@ -50,21 +50,45 @@ pie
 # Monthly Sentiment Trends
 
 ```mermaid {scale: 0.9}
-%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px'}}}%%
+%%{init: {"theme": "base", "themeVariables": { "fontSize": "12px"}}}%%
 graph TD
-    subgraph Trends
-    A["Jan (45% Neg, 35% Neu, 20% Pos)"] --> B["Feb (42% Neg, 36% Neu, 22% Pos)"]
-    B --> C["Mar (40% Neg, 38% Neu, 22% Pos)"]
-    C --> D["Apr (38% Neg, 40% Neu, 22% Pos)"]
-    D --> E["May (35% Neg, 42% Neu, 23% Pos)"]
-    E --> F["Jun (33% Neg, 45% Neu, 22% Pos)"]
-    end
-    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
+A["Oct 2019\nNeg: 36.6% Neu: 2.4% Pos: 61.0%"]
+B["Nov 2019\nNeg: 32.0% Neu: 0.0% Pos: 68.0%"]
+C["Dec 2019\nNeg: 48.1% Neu: 0.0% Pos: 51.9%"]
+D["Jan 2020\nNeg: 32.4% Neu: 2.9% Pos: 64.7%"]
+E["Feb 2020\nNeg: 71.4% Neu: 7.1% Pos: 21.4%"]
+F["Mar 2020\nNeg: 59.5% Neu: 0.0% Pos: 40.5%"]
+G["Apr 2020\nNeg: 50.0% Neu: 5.0% Pos: 45.0%"]
+H["May 2020\nNeg: 60.0% Neu: 5.0% Pos: 35.0%"]
+I["Jun 2020\nNeg: 45.0% Neu: 5.0% Pos: 50.0%"]
+J["Jul 2020\nNeg: 38.0% Neu: 6.0% Pos: 56.0%"]
+K["Aug 2020\nNeg: 62.0% Neu: 4.0% Pos: 34.0%"]
+L["Sep 2020\nNeg: 70.0% Neu: 5.0% Pos: 25.0%"]
+M["Oct 2020\nNeg: 40.0% Neu: 3.0% Pos: 57.0%"]
+N["Nov 2020\nNeg: 42.0% Neu: 2.0% Pos: 56.0%"]
+O["Dec 2020\nNeg: 48.0% Neu: 3.0% Pos: 49.0%"]
+P["Jan 2021\nNeg: 52.0% Neu: 3.0% Pos: 45.0%"]
+Q["Feb 2021\nNeg: 44.0% Neu: 5.0% Pos: 51.0%"]
+R["Mar 2021\nNeg: 46.0% Neu: 4.0% Pos: 50.0%"]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
+H --> I
+I --> J
+J --> K
+K --> L
+L --> M
+M --> N
+N --> O
+O --> P
+P --> Q
+Q --> R
+
 ```
 
 <div class="mt-4 text-sm opacity-70">

@@ -60,16 +60,21 @@ layout: default
 # Monthly Sentiment Trends
 
 ```mermaid {scale: 0.9}
-xychart-beta
-    title "Sentiment Trends Over 6 Months"
-    x-axis ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
-    y-axis "Percentage (%)" 0 --> 100
-    line ["Negative", "Neutral", "Positive"]
-    plot [
-        [45, 42, 40, 38, 35, 33],
-        [35, 36, 38, 40, 42, 45],
-        [20, 22, 22, 22, 23, 22]
-    ]
+%%{init: {'theme': 'base', 'themeVariables': { 'fontSize': '16px'}}}%%
+graph TD
+    subgraph Trends
+    A["Jan (45% Neg, 35% Neu, 20% Pos)"] --> B["Feb (42% Neg, 36% Neu, 22% Pos)"]
+    B --> C["Mar (40% Neg, 38% Neu, 22% Pos)"]
+    C --> D["Apr (38% Neg, 40% Neu, 22% Pos)"]
+    D --> E["May (35% Neg, 42% Neu, 23% Pos)"]
+    E --> F["Jun (33% Neg, 45% Neu, 22% Pos)"]
+    end
+    style A fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style B fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style C fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style D fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style E fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style F fill:#f9f9f9,stroke:#333,stroke-width:2px
 ```
 
 <div class="mt-4 text-sm opacity-70">
@@ -105,12 +110,18 @@ layout: two-cols
 <div class="pl-4 pt-12">
 
 ```mermaid {scale: 0.8}
-bar
-    title Issue Distribution (%)
-    "Flight Delays" 35
-    "Baggage Issues" 30
-    "Customer Service" 25
-    "Other Issues" 10
+%%{init: { 'theme': 'base' } }%%
+graph TD
+    subgraph "Issue Distribution"
+    A["Flight Delays (35%)"]
+    B["Baggage Issues (30%)"]
+    C["Customer Service (25%)"]
+    D["Other Issues (10%)"]
+    end
+    style A fill:#ff6b6b,stroke:#333
+    style B fill:#4ecdc4,stroke:#333
+    style C fill:#45b7d1,stroke:#333
+    style D fill:#96ceb4,stroke:#333
 ```
 
 </div>

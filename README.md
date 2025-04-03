@@ -157,8 +157,8 @@ journey
         Customer Feedback: 3: Customer
 ```
 
-<div class="mt-4 text-sm opacity-70">
-Average resolution time: 4.2 hours
+<div class="mt-4 text-sm opacity-70"> Most frequently mentioned timeframes: - **2 hours** (36 mentions) - **5 hours** (28) - **3 hours** (25)
+🕒 Average resolution time: ~4.2 hours
 </div>
 
 ---
@@ -173,22 +173,20 @@ Average resolution time: 4.2 hours
 ```mermaid {scale: 0.7}
 pie
     title "Positive Feedback Distribution"
-    "Entertainment" : 40
-    "Comfort" : 30
-    "Staff" : 20
-    "Food" : 10
+    "Staff" : 53
+    "Comfort" : 46
+    "Food" : 45
+    "Entertainment" : 14
 ```
 
 </div>
 <div>
 
 ## Key Highlights
-- 🎬 Modern entertainment system
-  - 1000+ hours of content
-  - 4.2/5 average rating
-- 💺 Ergonomic seating
-- 🍽️ Quality catering
-- 👨‍✈️ Professional crew
+-👨‍✈️ Staff received the highest praise (53%)
+-💺 Comfortable seating appreciated by 46%
+-🍽️ Food quality consistently positive
+-🎬 Entertainment was less mentioned (14%)
 
 </div>
 </div>
@@ -230,6 +228,7 @@ gantt
     System Updates    :2024-03, 3m
     section Phase 3
     Process Rollout   :2024-06, 2m
+
 ```
 
 </div>
@@ -241,28 +240,25 @@ gantt
 ```mermaid {scale: 0.8}
 pie
     title "Customer Satisfaction by Region"
-    "Europe" : 45
-    "Americas" : 25
-    "Asia Pacific" : 20
-    "Middle East" : 10
+    "Europe" : 87
+    "Other" : 13
 ```
 
 <div class="mt-4 grid grid-cols-2 gap-4">
 <div>
 
 ## Top Performing Routes
-1. London - New York
-2. London - Singapore
-3. London - Dubai
+1. London → New York
+2. London → Singapore
+3. London → Dubai
 
 </div>
 <div>
 
 ## Areas for Improvement
-1. Regional connections
+1. Regional connectivity
 2. Holiday destinations
-3. Business routes
-
+3. Consistency in Business Class experience
 </div>
 </div>
 

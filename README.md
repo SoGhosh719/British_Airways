@@ -1,8 +1,5 @@
   ## British Airways Customer Review Analysis
   A comprehensive analysis of customer feedback and sentiment for British Airways services.
-drawings:
-  persist: false
-css: unocss
 ---
 
 # British Airways Customer Review Analysis
@@ -262,15 +259,11 @@ pie
 
 </div>
 </div>
-
----
-layout: end
-class: text-center
 ---
 
 # Thank You
 
-[GitHub Repository](https://github.com/your-username/ba-analysis)
+[GitHub Repository](https://SoGhosh719/British_Airways)
 
 <div class="pt-8 text-sm opacity-60">
   Created with Slidev • <carbon-logo-github class="inline"/> Contribute on GitHub

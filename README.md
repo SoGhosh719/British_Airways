@@ -103,20 +103,20 @@ Showing gradual improvement in customer sentiment over time
 
 ## Primary Concerns
 - ⏰ **Flight Delays**
-  - 35% of all complaints
-  - Average delay: 2.5 hours
+  - **44.8%** of all complaints
+  - Average delay: ~2.5 hours (from review mentions)
   - Major impact on satisfaction
 
 - 🧳 **Baggage Handling**
-  - 30% report issues
-  - Lost luggage recovery: 72 hours avg
+  - **26.4%** report issues
+  - Lost luggage recovery: estimated **72 hours avg**
   
 - 👥 **Customer Service**
-  - Response time: 4+ hours
-  - Resolution rate: 65%
+  - **36.2%** complaints mention poor service
+  - Response time: **4.2+ hours**
+  - Resolution rate: ~**65%**
 
 </v-clicks>
-
 
 <div class="pl-4 pt-12">
 
@@ -124,10 +124,10 @@ Showing gradual improvement in customer sentiment over time
 %%{init: { 'theme': 'base' } }%%
 graph TD
     subgraph "Issue Distribution"
-    A["Flight Delays (35%)"]
-    B["Baggage Issues (30%)"]
-    C["Customer Service (25%)"]
-    D["Other Issues (10%)"]
+    A["Flight Delays (44.8%)"]
+    B["Baggage Issues (26.4%)"]
+    C["Customer Service (36.2%)"]
+    D["Other Issues (10.0%)"]
     end
     style A fill:#ff6b6b,stroke:#333
     style B fill:#4ecdc4,stroke:#333

@@ -25,11 +25,11 @@ A Data-Driven Customer Feedback Analysis
 
 ## Sentiment Distribution
 
-- 🔴 **45%** Negative Reviews
-- ⚪ **35%** Neutral Feedback
-- 🟢 **20%** Positive Experiences
+- 🔴 **51.8%** Negative Reviews  
+- ⚪ **1.6%** Neutral Feedback  
+- 🟢 **46.6%** Positive Experiences  
 
-> Analysis based on 10,000+ customer reviews
+> Analysis based on actual scraped British Airways reviews
 
 </div>
 <div>
@@ -37,9 +37,9 @@ A Data-Driven Customer Feedback Analysis
 ```mermaid {scale: 0.7}
 pie
     title Customer Sentiment Distribution
-    "Negative" : 45
-    "Neutral" : 35
-    "Positive" : 20
+    "Negative" : 51.8
+    "Neutral" : 1.6
+    "Positive" : 46.6
 ```
 
 </div>

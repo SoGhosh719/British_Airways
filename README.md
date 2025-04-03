@@ -1,9 +1,6 @@
-  ## British Airways Customer Review Analysis
-  A comprehensive analysis of customer feedback and sentiment for British Airways services.
+## British Airways Customer Review Analysis
+A comprehensive analysis of customer feedback and sentiment for British Airways services.
 ---
-
-# British Airways Customer Review Analysis
-
 A Data-Driven Customer Feedback Analysis
 
 <div class="pt-12">
@@ -19,8 +16,6 @@ A Data-Driven Customer Feedback Analysis
   </a>
 </div>
 
----
-layout: default
 ---
 
 # Key Sentiment Analysis Findings
@@ -51,8 +46,6 @@ pie
 </div>
 
 ---
-layout: default
----
 
 # Monthly Sentiment Trends
 
@@ -79,8 +72,6 @@ Showing gradual improvement in customer sentiment over time
 </div>
 
 ---
-layout: two-cols
----
 
 # Common Issues Identified
 
@@ -102,7 +93,6 @@ layout: two-cols
 
 </v-clicks>
 
-::right::
 
 <div class="pl-4 pt-12">
 
@@ -148,8 +138,6 @@ Average resolution time: 4.2 hours
 </div>
 
 ---
-layout: default
----
 
 # Positive Feedback Areas
 
@@ -180,9 +168,6 @@ pie
 
 </div>
 </div>
-
----
-layout: default
 ---
 
 # Strategic Recommendations
@@ -225,9 +210,6 @@ gantt
 
 </div>
 </div>
-
----
-layout: default
 ---
 
 # Regional Performance Analysis
@@ -259,11 +241,9 @@ pie
 
 </div>
 </div>
----
-
 # Thank You
 
-[GitHub Repository](https://SoGhosh719/British_Airways)
+[GitHub Repository](https://github.com/SoGhosh719/British_Airways)
 
 <div class="pt-8 text-sm opacity-60">
   Created with Slidev • <carbon-logo-github class="inline"/> Contribute on GitHub

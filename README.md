@@ -5,7 +5,7 @@ A Data-Driven Customer Feedback Analysis
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Navigate with Space <carbon:arrow-right class="inline"/>
+     <carbon:arrow-right class="inline"/>
   </span>
 </div>
 

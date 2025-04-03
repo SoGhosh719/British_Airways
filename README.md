@@ -67,6 +67,36 @@ pie
 > Most common words include: **flight**, **ba**, **trip**, **seat**, **service**, **delay**, **baggage**, and **crew**.
 
 ---
+# Sentiment-Specific Language Patterns
+
+---
+
+# Positive Reviews Word Cloud
+
+![Positive Reviews Word Cloud](output/wordcloud_positive.png)
+
+> Frequent praise for **seat**, **service**, **food**, **crew**, and **suite**.  
+> Words like “good”, “excellent”, “attendant”, and “pleasant” dominate the tone.
+
+---
+
+# Neutral Reviews Word Cloud
+
+![Neutral Reviews Word Cloud](output/wordcloud_neutral.png)
+
+> Neutral mentions often include unclear or mixed feedback with words like:  
+> **joke**, **four**, **class**, **attention**, **companion**, and **business**.
+
+---
+
+# Negative Reviews Word Cloud
+
+![Negative Reviews Word Cloud](output/wordcloud_negative.png)
+
+> Strong recurring themes include issues with **crew**, **water**, **cabin**, and **route**.  
+> Words like “awful”, “unhappy”, “shame”, “elderly”, and “delayed” suggest deeper dissatisfaction.
+
+---
 
 # Top 20 Most Frequent Words
 

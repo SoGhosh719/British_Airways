@@ -196,8 +196,6 @@ graph TD
 </div>
 
 ---
-layout: default
----
 
 # Customer Service Response Time
 
